@@ -133,8 +133,8 @@ p {
 	text-align: left;
 }
 #nav-content .section-heading::before {
-	content: 'Ementa';
-	text-align: left;
+	content: '$';
+	text-align: end;
 	-webkit-text-stroke: 1.5px #C7BA75;
 }
 #nav-content .wrapper {
