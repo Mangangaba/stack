@@ -221,23 +221,23 @@ p {
 		width: 99%;
 	}
 }
-#hero {
+#homepage {
 	height: 100vh;
 	width: 100%;
 	padding-top: 10rem;
 }
-#hero .container {
+#homepage .container {
 	display: flex;
 	align-items: space-around;
 	justify-content: space-between;
 }
-#hero .container .left {
+#homepage .container .left {
 	flex: 1.2;
 }
-#hero .container .right {
+#homepage .container .right {
 	flex: 1.2;
 }
-#hero .left .subheading {
+#homepage .left .subheading {
 	font-size: 3.33rem;
 	font-weight: 25;
 	text-transform: uppercase;
@@ -246,17 +246,17 @@ p {
 	animation-delay: 1s;
 	opacity: 0;
 }
-#hero .left .heading {
+#homepage .left .heading {
 	font-size: 5rem;
 	font-family: 'Montserrat';
 	font-weight: 900;
 	overflow: hidden;
 }
-#hero .left .heading .wrapper {
+#homepage .left .heading .wrapper {
 	display: flex;
 	overflow: hidden;
 }
-#hero .left .heading .wrapper span {
+#homepage .left .heading .wrapper span {
 	position: relative;
 	bottom: -3.33px;
 	animation: reveal 0.6s ease-in-out forwards;
@@ -277,48 +277,48 @@ p {
 		opacity: 1;
 	}
 }
-#hero .left .desc {
+#homepage .left .desc {
 	margin-top: 1.25rem;
 	max-width: 400px;
 	animation: fade 1.2s ease-in forwards;
 	animation-delay: 2.4s;
 	opacity: 0;
 }
-#hero .right {
+#homepage .right {
 	text-align: space-between;
 }
 @media only screen and (max-width: 768px) {
 	html {
 		font-size: 8px;
 	}
-	#hero .container {
+	#homepage .container {
 		flex-direction: column-reverse;
 	}
-	#hero .container .right {
+	#homepage .container .right {
 		text-align: flex;
 		flex: 1;
 		margin-bottom: 2rem;
 	}
-	#hero .container .left {
+	#homepage .container .left {
 		text-align: space-around;
 		padding-right: 0;
 		flex: 1;
 		height: fit-content;
 	}
-	#hero .left .buttons {
+	#homepage .left .buttons {
 		justify-content: center;
 	}
-	#hero .left .heading {
+	#homepage .left .heading {
 		font-size: 4rem;
 		margin: 0 auto;
 	}
-	#hero .container .left .desc {
+	#homepage .container .left .desc {
 		margin: 0 auto;
 		margin-top: 2rem;
 	}
 }
 @media only screen and (max-width: 950px) {
-	#hero .container .right {
+	#homepage .container .right {
 		flex: 6;
 	}
 }
