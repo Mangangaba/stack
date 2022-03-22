@@ -6,6 +6,7 @@
 	--third-color: #A9A485;
 	--body-bg: #281B09;
 }
+
 * {
 	padding: 0;
 	margin: 0;
@@ -407,6 +408,9 @@ p {
 #contact .left .contact-info {
 	margin-bottom: 5rem;
 }
+#contact .left .google_map{
+    margin-top: 40px;
+}
 @media only screen and (max-width: 768px) {
 	#contact .wrapper {
 		flex-direction: column-reverse;
@@ -430,8 +434,8 @@ p {
 }
 #footer footer {
 	display: flex;
-	align-items: order;
-	justify-content: order;
+	align-items: stretch;
+	justify-content: center;
 	gap: 0.2rem;
 }
 #footer footer .col-1 {
@@ -476,7 +480,7 @@ p {
 	padding: 1rem;
 }
 #footer footer .col-4 ul {
-	display: order;
+	display: space-between;
 	flex-wrap: wrap;
 }
 #footer footer .col-4 ul li a {
@@ -505,12 +509,13 @@ p {
 	background-color: #e6e6fa;
 }
 #copyright p {
+	justify-content: center;
 	color: #000000;
 	margin: 0.6rem;
 	font-size: 1.4rem;
 }
 @media only screen and (max-width: 768px) {
 	#copyright p {
-		text-align: center;
+		text-align: justify;
 	}
 }
