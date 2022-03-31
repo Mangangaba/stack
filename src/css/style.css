@@ -153,7 +153,7 @@ p {
 	display: inline-block;
 	width: 100%;
 	color: #e6e6fa;
-	font-size: 5rem;
+	font-size: 3rem;
 	font-family: 'Montserrat';
 }
 #nav-content ul li a::after {
@@ -216,7 +216,7 @@ p {
 		text-align: flex;
 	}
 	#nav-content nav ul li a {
-		font-size: 1.2rem;
+		font-size: 3rem;
 	}
 	#nav-content .wrapper {
 		width: 99%;
@@ -389,7 +389,7 @@ p {
 	display: space-between;
 	align-items: flex;
 	justify-content: center;
-	gap: 5rem;
+	gap: 3rem;
 }
 #contact .wrapper .left {
 	flex: 1;
@@ -401,8 +401,8 @@ p {
 	font-family: 'Montserrat';
 	color: var(--primary-color);
 	font-size: 33px;
-	margin-top: 25px;
-	margin-bottom: 25px;
+	margin-top: 12px;
+	margin-bottom: 12px;
 }
 #contact .left .contact-desc {
 	display: space-between;
@@ -411,27 +411,36 @@ p {
 #contact .left .contact-info {
 	margin-bottom: 1rem;
 }
-#contact .left .google_map{
-    margin-top: 25px;
-	margin-bottom: 1rem;
+@media only screen and (max-width: 768px) {
+#contact .wrapper {
+	right: 10px;
+	top: 10px;
+}
+#contact .right {
+	width: 100%;
+}
+#contact .right .form-wrapper {
+	padding: 3rem;
+	width: 100%;
+	max-width: 100%;
+}
+#contact .contact-info {
+	flex-direction: column;
+	text-align: center;
+	}
+}
+/* GPS */
+#streets {
+	margin-left: auto;
+	margin-right: auto;
+	width: 6rem
+}
+#streets .center {	
+	margin-bottom: 6rem;
 }
 @media only screen and (max-width: 768px) {
-	#contact .wrapper {
-		right: 10px;
-		top: 10px;
-	}
-	#contact .right {
-		width: 100%;
-	}
-	#contact .right .form-wrapper {
-		padding: 3rem;
-		width: 100%;
-		max-width: 100%;
-	}
-	#contact .contact-info {
-		flex-direction: column;
+	#streets .center {
 		justify-content: center;
-		text-align: center;
 	}
 }
 /* Rodapé */
