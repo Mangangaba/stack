@@ -46,21 +46,22 @@ p {
 	letter-spacing: 0rem;
 	text-align: center;
 	position: relative;
-	margin-bottom: 3.3rem;
+	margin-bottom: 6rem;
+	right: 12%;
 }
 .section-heading::before {
 	content: attr(data-outline);
 	position: absolute;
-	left: -0.25%;
-	top: 5%;
+	left: -12%;
+	top: 36%;
 	width: 90%;
 	text-align: center;
 	text-transform: uppercase;
 	font-family: 'Montserrat';
 	letter-spacing: 0.125rem;
 	color: transparent;
-	-webkit-text-stroke: 3.33px var(--third-color);
-	z-index: 1.25;
+	-webkit-text-stroke: 3px var(--third-color);
+	z-index: -36%;
 }
 .scroll-top {
 	z-index: 100;
@@ -265,9 +266,9 @@ p {
 #contact .left .contact-heading {
 	font-family: 'Montserrat';
 	color: var(--primary-color);
-	font-size: 33px;
-	margin-top: 12px;
-	margin-bottom: 12px;
+	font-size: 27px;
+	margin-top: 36px;
+	margin-bottom: 36px;
 }
 #contact .left .contact-desc {
 	display: space-between;
@@ -294,19 +295,8 @@ p {
 	text-align: center;
 	}
 }
-/* GPS */
-#streets {
-	margin-left: auto;
-	margin-right: auto;
-	width: 6rem
-}
-#streets .center {	
+#contact .streets {	
 	margin-bottom: 6rem;
-}
-@media only screen and (max-width: 768px) {
-	#streets .center {
-		justify-content: center;
-	}
 }
 /* Rodapé */
 #footer {
