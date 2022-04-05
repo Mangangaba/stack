@@ -212,7 +212,7 @@ p {
 #contact .left .contact-heading {
 	font-family: 'Montserrat';
 	color: var(--primary-color);
-	font-size: 27px;
+	font-size: 12px;
 	margin-top: 36px;
 	margin-bottom: 36px;
 }
@@ -222,11 +222,6 @@ p {
 }
 #contact .left .contact-info {
 	margin-bottom: 1rem;
-}
-@media only screen and (max-width: 768px) {
-#contact .wrapper {
-	right: 10px;
-	top: 10px;
 }
 #contact .right {
 	width: 100%;
@@ -239,10 +234,14 @@ p {
 #contact .contact-info {
 	flex-direction: column;
 	text-align: center;
-	}
 }
 #contact .streets {	
 	margin-bottom: 6rem;
+}
+@media only screen and (max-width: 768px) {
+#contact .wrapper {
+	right: 10px;
+	top: 10px;
 }
 /* Rodapé */
 #footer {
