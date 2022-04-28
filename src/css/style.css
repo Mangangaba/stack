@@ -13,8 +13,8 @@
 	box-sizing: border-box;
 }
 html {
-	font-family: 'Roboto Mono';
-	font-size: 8.5px;
+	font-family: 'Poppins', 'Montserrat', 'Roboto', sans-serif;
+    font-size: 12px;;
 	scroll-behavior: smooth;
 	color: #C7BA75;
 }
@@ -40,7 +40,8 @@ p {
 	color: #e6e6fa;
 }
 .section-heading {
-	font-size: clamp(5.5rem, 11.5vw, 5.5rem);
+	font-size: clamp(3rem, 10vw, 3rem);
+	padding: 12px 0 12px 0;
 	text-transform: lowercase;
 	font-family: 'Montserrat';
 	letter-spacing: 0rem;
@@ -105,13 +106,14 @@ p {
 	flex: 1.2;
 }
 #homepage .left .subheading {
-	font-size: 3.33rem;
-	font-weight: 25;
-	text-transform: uppercase;
-	color: #e6e6fa;	
-	animation: fade 0.3s ease-in forwards;
-	animation-delay: 1s;
-	opacity: 0;
+	font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 33px;
+    padding: 0px 36px 12px 36px;
+    color: #e6e6fa;
+    animation: fade 0.3s ease-in forwards;
+    animation-delay: 1s;
+    opacity: 0;
 }
 #homepage .left .heading {
 	font-size: 5rem;
@@ -125,7 +127,7 @@ p {
 }
 #homepage .left .heading .wrapper span {
 	position: relative;
-	bottom: -3.33px;
+	padding: 0px 0px 0px 12px;
 	animation: reveal 0.6s ease-in-out forwards;
 }
 @keyframes reveal {
@@ -145,14 +147,11 @@ p {
 	}
 }
 #homepage .left .desc {
-	margin-top: 1.25rem;
-	max-width: 400px;
-	animation: fade 1.2s ease-in forwards;
-	animation-delay: 2.4s;
-	opacity: 0;
-}
-#homepage .right {
-	text-align: space-between;
+	font-size: 12px;
+    padding: 12px 140px 12px 140px;
+    animation: fade 1.2s ease-in forwards;
+    animation-delay: 2.4s;
+    opacity: 0;
 }
 @media only screen and (max-width: 768px) {
 	html {
@@ -183,15 +182,13 @@ p {
 		margin: 0 auto;
 		margin-top: 2rem;
 	}
-}
-@media only screen and (max-width: 950px) {
 	#homepage .container .right {
 		flex: 6;
 	}
 }
 /* Contato */
 #contact {
-	padding: 10rem 0;
+	padding: 2rem 0 2rem 0;
 }
 #contact .wrapper {
 	display: space-between;
@@ -206,11 +203,10 @@ p {
 	flex: 1;
 }
 #contact .left .contact-heading {
-	font-family: 'Montserrat';
-	color: var(--primary-color);
-	font-size: 26.5px;
-	margin-top: 36px;
-	margin-bottom: 36px;
+    font-family: 'Poppins', sans-serif;
+    padding: 12px 80px 12px 80px;
+    color: #fff;
+    font-size: 36px;
 }
 #contact .left .contact-desc {
 	display: space-between;
@@ -219,9 +215,10 @@ p {
 #contact .left .contact-info {
 	margin-bottom: 1rem;
 }
-#contact .right {
-	width: 100%;
+#contact p.contact-desc {
+    font-size: 12px;
 }
+
 #contact .right .form-wrapper {
 	padding: 3rem;
 	width: 100%;
@@ -231,10 +228,7 @@ p {
 	flex-direction: column;
 	text-align: center;
 }
-#contact .streets {	
-	margin-bottom: 6rem;
-}
-/* Rodapé */
+/* RodapÃŠ */
 #footer {
 	background-color: var(--primary-color);
 	color: black;
@@ -276,11 +270,9 @@ p {
 	color: var(--third-color);
 }
 #footer footer ul li a {
-	display: space-between;
 	width: 100%;
 	color: #000000;	
-	font-size: 1.6rem;
-	padding: 1rem;
+	font-size: 10.5px;
 }
 #footer footer .col-4 ul {
 	display: space-between;
@@ -312,11 +304,9 @@ p {
 	background-color: #e6e6fa;
 }
 #copyright p {
-	justify-content: center;
 	text-align: center;
 	color: #000000;
-	margin: 0.6rem;
-	font-size: 1.4rem;
+	font-size: 10.5px;
 }
 @media only screen and (max-width: 768px) {
 	#copyright p {
