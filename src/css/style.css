@@ -190,11 +190,6 @@ p {
 #contact {
     padding: 2rem 0 2rem 0;
 }
-#contact .visits {
-    padding: 12px 24rem 12px 24rem;
-    color: #fff;
-    animation-delay: 10s;
-}
 #contact .wrapper {
     display: space-between;
     align-items: flex;
