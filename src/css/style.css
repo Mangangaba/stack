@@ -148,7 +148,7 @@ p {
 }
 #homepage .left .desc {
     font-size: 12px;
-    padding: 12px 140px 12px 140px;
+    margin: 32px;
     animation: fade 0.8s ease-in forwards;
     animation-delay: 1.6s;
     opacity: 0;
