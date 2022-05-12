@@ -199,10 +199,6 @@ body.dark-theme {
   border-radius: 20px;
 }
 
-.projects__content {
-  padding: 256px;
-}
-
 .projects__modal {
   position: absolute;
   width: 100%;
@@ -226,6 +222,8 @@ body.dark-theme {
 
 .projects__subtitle {
   font-size: var(--smaller-font-size);
+  text-align: center;
+  margin-bottom: 12px;
 }
 
 .projects__title {
@@ -234,7 +232,7 @@ body.dark-theme {
 }
 
 .projects__button {
-  padding: .5rem;
+  padding: 0.125rem;
 }
 
 .projects__card:hover .projects__modal {
@@ -271,25 +269,13 @@ body.dark-theme {
 
 @media screen and (min-width: 576px) {
   .projects__content {
-    grid-template-columns: 332px;
     justify-content: center;
-  }
-
-  .filters__content {
-    width: 332px;
-    margin: 3rem auto;
   }
 }
 
 @media screen and (min-width: 776px) {
-  .projects__content,
-  .skills__content {
-    grid-template-columns: repeat(2, 332px);
-  }
-
-  .skills__content {
+  .projects__content {
     justify-content: center;
-    column-gap: 3rem;
   }
 }
 
