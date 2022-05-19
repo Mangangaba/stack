@@ -1,5 +1,4 @@
-/*=============== GOOGLE FONTS ===============*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 :root {
   --hue: 207;
@@ -13,7 +12,7 @@
   --text-color-lighten: hsl(var(--hue), 8%, 92%);
   --body-color: hsl(var(--hue), 100%, 99%);
   --container-color: #fff;
-  --body-font: 'Roboto', sans-serif;
+  --body-font: 'IBM Plex Sans', sans-serif;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1rem;
   --normal-font-size: .938rem;
@@ -61,6 +60,7 @@ a {
 
 img {
   max-width: 100%;
+  width: auto;
   height: auto;
 }
 
@@ -135,7 +135,7 @@ body.dark-theme {
 }
 
 .profile__name {
-  font-size: var(--h1-font-size);
+  font-size: var(--h2-font-size);
   display: flex;
   justify-content: center;
 }
@@ -144,7 +144,6 @@ body.dark-theme {
   font-size: var(--smaller-font-size);
   font-weight: 500;
   color: var(--text-color);
-  margin-bottom: 1rem;
   display: flex;
   justify-content: center;
 }
@@ -153,8 +152,7 @@ body.dark-theme {
   display: flex;
   justify-content: center;
   column-gap: .75rem;
-  padding: 8px 0 6px 0;
-  margin: 0 0 6px 0;
+  padding: 12px 0 6px 0;
 }
 
 .profile__social-link {
@@ -225,7 +223,7 @@ body.dark-theme {
 
 .projects__title {
   font-size: var(--h3-font-size);
-  margin-bottom: .75rem;
+  margin-bottom: .25rem;
 }
 
 .projects__button {
@@ -237,7 +235,8 @@ body.dark-theme {
 }
 
 .partners__title {
-  font-size: 12px;
+  font-size: var(--smaller-font-size);
+  font-weight: 500;
   display: flex;
   justify-content: center;
   padding: 12px;
