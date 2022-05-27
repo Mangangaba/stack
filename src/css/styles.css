@@ -161,10 +161,6 @@ body.dark-theme {
   transition: .3s;
 }
 
-.profile__social-link:hover {
-  color: var(--first-color);
-}
-
 .button {
   display: inline-flex;
   background-color: var(--first-color);
