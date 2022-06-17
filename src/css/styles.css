@@ -134,13 +134,12 @@ body.dark-theme {
   margin-bottom: .75rem;
 }
 
-.profile__name {
+.profile__desc {
   font-size: var(--h2-font-size);
   display: flex;
-  justify-content: center;
 }
 
-.profile__profession {
+.profile__theme {
   font-size: var(--smaller-font-size);
   font-weight: 500;
   color: var(--text-color);
