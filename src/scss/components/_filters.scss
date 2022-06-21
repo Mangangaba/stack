@@ -27,11 +27,10 @@
         padding: 1.5rem 1.25rem;
         transition: .3s;
     }
-    &__subtitle{
-        font-size: var(--smaller-font-size);
-    }
     &__title{
-        font-size: var(--h3-font-size);
-        margin-bottom: .75rem;
+        font-size: var(--smaller-font-size);
+        font-weight: 800;
+        margin-bottom: .125rem;
+        color: var(--text-color-lighten)
     }
 }

@@ -20,53 +20,48 @@
     </head>
     <body>
 
-    <header class="profile container">
-    
+<header class="profile container">
     <ul class="profile__theme">
         <i class="ri-moon-line change-theme" id="theme-button"></i>
     </ul>
+</header>
 
-    </header>
-
-    <main class="main">
+    <article class="main">
         <section class="filters container">
-            <h1 class="partners__business">
-                <span><span class="partners__quotes"></span>
-            </h1>
+            <h2 class="partners__business">
+                <span><span class="partners__merch"></span>
+            </h2>
             <div class="filters__sections">
                 <div class="projects__content grid filters__active" data-content id="projects">
-                    <article class="projects__card">
-                        <img src="./assets/util/tangerinizando.webp" alt="" class="projects__img">
-                        <div class="projects__modal">
-                            <div>
-                                <span class="projects__subtitle">Design</span>
-                                <h3 class="projects__title">Tangerina Studio</h3>
-                                <a href="https://www.instagram.com/tangerinastd/" class="projects__button button button__small">
-                                    <i class="ri-link"></i>
-                                </a>
-                            </div>
-                        </div>
-                     </article>
-
                     <article class="projects__card">
                         <img src="./assets/util/alkantarasoftwareltda.webp"projects__img">
                             <div class="projects__modal">
                                 <div>
-                                <span class="projects__subtitle">Desenvolvimento</span>
-                                <h3 class="projects__title">AKT Software</h3>
+                                <span class="projects__title">System</span>
                                     <a href="https://aktsoftware.com.br/" class="projects__button button button__small">
                                         <i class="ri-link"></i>
                                     </a>
                                 </div>
                             </div>
                     </article>
+                    <article class="projects__card">
+                        <img src="./assets/util/tangerinizando.webp" alt="" class="projects__img">
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__title">Design</span> 
+                                <a href="https://www.instagram.com/tangerinastd/" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
                 </div>
             </div>
         </section>
         </main>
+    </article>
 
         <footer class="footer container">   
-
             <ul class="profile__social">
                 <a href="https://www.instagram.com/mngngb_" target="_blank" class="profile__social-link">
                     <i class="ri-instagram-line"></i>
@@ -78,17 +73,15 @@
                     <i class="ri-whatsapp-line"></i>
                 </a>
             </ul>
-
                 <li class="footer__copy">
                     &#128029; &#169; 2022 
                 </li>
-            
         </footer>
 
         <script src="./src/js/scrollreveal.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
         <script>
-            var typingEffect = new Typed(".partners__quotes",{
+            var typingEffect = new Typed(".partners__merch",{
                 strings : [
                     "Sócios",
                     "パートナー",
@@ -110,7 +103,6 @@
                 backDelay: 3000,
             })
         </script>
-        <script src="./src/js/script.js"></script>
         <script src="./src/js/main.js"></script>
                                       
     </body>
