@@ -56,9 +56,9 @@ const sr = ScrollReveal({
     delay: 400,
 })
 
-sr.reveal(`.profile__theme`, {delay: 1500})
-sr.reveal(`.projects__content`, {interval: 100, delay: 700})
-sr.reveal(`.filters__content`, {delay: 700})
+sr.reveal(`.profile__theme`, {delay: 2000})
+sr.reveal(`.projects__content`, {interval: 100, delay: 500})
+sr.reveal(`.filters__content`, {delay: 500})
 sr.reveal(`.profile__social`, {interval: 50, delay: 400})
 sr.reveal(`.footer__copy`, {delay: 200})
 sr.reveal(`.filters`, {delay: 1000})
